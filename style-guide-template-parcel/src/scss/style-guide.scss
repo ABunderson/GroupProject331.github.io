@@ -1,21 +1,34 @@
 @import "partials/reset";
 @import "partials/prefix-mixins";
 @import "partials/layout"; // responsive grid and media queries
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Texturina&display=swap");
 
-// color palette - these colors will be the color swatches of the Colors section
+/* --------------------------------
 
-/* -------------------------------- 
-
-xColors 
+xColors
 
 -------------------------------- */
 
 @import "partials/colors";
 
-/* -------------------------------- 
+/* --------------------------------
 
-xBackground 
+xNavigation
+
+-------------------------------- */
+
+@import "partials/navigation";
+
+/* --------------------------------
+
+xTypography
+
+-------------------------------- */
+
+@import "partials/typography";
+
+/* --------------------------------
+
+xBackground
 
 -------------------------------- */
 
@@ -24,7 +37,7 @@ body {
   background-color: $color-5;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xPatterns
 
@@ -39,17 +52,9 @@ xPatterns
   padding: 6px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xNavigation 
-
--------------------------------- */
-
-@import 'partials/navigation';
-
-/* -------------------------------- 
-
-xPage title 
+xPage title
 
 -------------------------------- */
 
@@ -62,17 +67,9 @@ main > h1 {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xTypography 
-
--------------------------------- */
-
-@import "partials/typography";
-
-/* -------------------------------- 
-
-xButtons 
+xButtons
 
 -------------------------------- */
 
@@ -84,6 +81,7 @@ xButtons
     size: 1.4rem;
     family: $secondary-font;
   }
+
   color: $color-5;
   padding: 0.6em 2.2em;
   cursor: pointer;
@@ -134,9 +132,9 @@ xButtons
   color: $color-1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xIcons 
+xIcons
 
 -------------------------------- */
 
@@ -146,9 +144,9 @@ xIcons
   height: 32px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xForm 
+xForm
 
 -------------------------------- */
 
@@ -196,6 +194,7 @@ input[type="checkbox"] {
 .radio-label,
 .checkbox-label {
   padding-left: 24px;
+
   @include user-select(none);
 
   &::before,
@@ -207,6 +206,7 @@ input[type="checkbox"] {
     height: 16px;
     position: absolute;
     top: 50%;
+
     @include transform(translateY(-50%));
   }
 
@@ -250,7 +250,9 @@ input[type="checkbox"]:checked + label::after {
   z-index: 1;
   right: 14px;
   top: 50%;
+
   @include transform(translateY(-50%));
+
   display: block;
   width: 16px;
   height: 16px;
@@ -262,6 +264,7 @@ select {
   position: relative;
   padding: 0.6em 2em 0.6em 1em;
   cursor: pointer;
+
   @include appearance(none);
 }
 

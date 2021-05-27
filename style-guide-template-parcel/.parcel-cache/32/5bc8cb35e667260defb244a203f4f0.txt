@@ -19,7 +19,7 @@
 137C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\ajv\lib\dot\_limitLength.jst121436361000000000 0
 108C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\package.json132665581218464544 0
 147C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-charset\package.json132665583841099994 0
-106C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\.gitignore132665596847733362 0
+106C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\.gitignore132666040566723424 0
 138C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\es-abstract\2020\IsInteger.js121436361000000000 0
 130C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\statuses\package.json132665583793987717 0
 151C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\icss-utils\node_modules\color-name\LICENSE130953959930000000 0
@@ -47,7 +47,7 @@
 150C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\stylehacks\dist\dictionary\identifiers.js121436361000000000 0
 134C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\tough-cookie\node_modules132665583721537169 1
 125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\collection-visit132665583869732312 1
-101C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build132665612728262701 1
+101C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build132666093794614864 1
 141C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\es-abstract\2015\TimeFromYear.js121436361000000000 0
 155C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\regjsparser\node_modules\jsesc\LICENSE-MIT.txt130397915180000000 0
 175C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-string\node_modules\source-map\lib\base64-vlq.js131369414910000000 0
@@ -124,7 +124,7 @@
 109C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\.DS_Store132665581218473849 0
 147C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\core-js\stable\array-buffer\is-view.js121436361000000000 0
 123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\abab\README.md121436361000000000 0
-106C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets132665581218609744 1
+106C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets132666092409197240 1
 155C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\posthtml\node_modules\htmlparser2\lib\index.js121436361000000000 0
 115C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@types132665583675903338 1
 148C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\core-js\modules\es.reflect.construct.js121436361000000000 0
@@ -155,7 +155,7 @@
 178C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\regenerate-unicode-properties\Binary_Property\IDS_Trinary_Operator.js121436361000000000 0
 141C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\es-abstract\2015\HourFromTime.js121436361000000000 0
 164C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-discard-empty\node_modules\postcss\package.json132665583857940143 0
-110C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\index.html132665588720139370 0
+110C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\index.html132666093793076876 0
 139C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@babel\types\lib\modifications132665583587894448 1
 155C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-calc\node_modules\color-name\README.md131339336430000000 0
 158C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-selector-parser\dist\__tests__\nesting.js121436361000000000 0
@@ -238,9 +238,9 @@
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\webidl-conversions\lib132665583545408103 1
 123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\des.js\lib\des132665583615778165 1
 144C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@nodelib\fs.walk\out\index.d.ts.map121436361000000000 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\style-guide.scss132665607160461285 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\style-guide.scss132666055393294068 0
 132C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\simple-swizzle\index.js131237366840000000 0
-123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets\wireframe-sm.jpg132665581218609744 0
+123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets\wireframe-sm.jpg132666092409650960 0
 140C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\regions\LR.js121436361000000000 0
 160C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\parse5\lib\extensions\location-info\parser-mixin.js121436361000000000 0
 134C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\sprintf-js\src\sprintf.js130810088230000000 0
@@ -264,7 +264,7 @@
 129C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\object.pick\index.js131475747570000000 0
 134C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\requires-port\.travis.yml130906897020000000 0
 144C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-charset\README.md121436361000000000 0
-126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\partials\_colors.scss132665607702535693 0
+126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\partials\_colors.scss132666042425240351 0
 177C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\escapes.js121436361000000000 0
 125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\ret\lib\index.js131132821200000000 0
 170C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-discard-comments\node_modules\source-map\package.json132665583860379132 0
@@ -289,7 +289,7 @@
 174C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\uncss\node_modules\chalk\node_modules\supports-color\package.json132665583773384955 0
 157C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\jsdom\lib\jsdom\living\events\FocusEvent-impl.js121436361000000000 0
 126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\parcel\lib\cli.js121436361000000000 0
-130C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\partials\_navigation.scss132665612907647480 0
+130C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\scss\partials\_navigation.scss132666061768242964 0
 129C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\whereEq.js121436361000000000 0
 157C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\posthtml-parser\coverage\lcov-report\prettify.js121436361000000000 0
 129C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets\branding\favicon-2.jpg132665581218512674 0
@@ -394,7 +394,7 @@
 123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\mkdirp\LICENSE121436361000000000 0
 141C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\Parcel.test.js121436361000000000 0
 178C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-convert-values\node_modules\postcss-value-parser\lib\parse.js121436361000000000 0
-123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets\wireframe-lg.jpg132665581218609744 0
+123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\src\assets\wireframe-lg.jpg132666076965178526 0
 119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\css-select132665583872186801 1
 142C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\es-abstract\2015\thisTimeValue.js121436361000000000 0
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\relateurl\package.json132665583811236728 0
@@ -1412,7 +1412,7 @@
 171C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-discard-overridden\node_modules\postcss\docs\syntax.md121436361000000000 0
 141C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-display-values132665583840255350 1
 158C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\css-tree\lib\syntax\pseudo\common\selectorList.js121436361000000000 0
-112C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.html132665612727993772 0
+112C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.html132666093794555740 0
 182C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules-values\node_modules\source-map\lib\source-map-consumer.js131511695460000000 0
 146C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\es-abstract\5\IsAccessorDescriptor.js121436361000000000 0
 166C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\csso\node_modules\css-tree\lib\lexer\generic-an-plus-b.js121436361000000000 0
@@ -2460,7 +2460,7 @@
 137C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-whitespace132665583830808003 1
 159C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\cssnano\node_modules\source-map\lib\source-node.js131509962680000000 0
 157C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-colormin\node_modules\has-flag\readme.md131593942790000000 0
-128C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-download.43a1d2d2.svg132665612727575504 0
+128C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-download.43a1d2d2.svg132666093794260926 0
 173C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\unset-value\node_modules\has-value\node_modules\isobject\LICENSE130740568500000000 0
 147C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\core-js\stable\typed-array\index-of.js121436361000000000 0
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-ordered-values132665583827923680 1
@@ -6779,7 +6779,7 @@
 138C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\core-js\features\set\union.js121436361000000000 0
 148C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\runtime-browser-hmr\src\loaders132665583544145205 1
 132C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\readable-stream\LICENSE121436361000000000 0
-123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.aaafe13f.js.map132665612728213764 0
+123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.aaafe13f.js.map132666093794594322 0
 139C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\resolve\test\resolver\dot_main132665583615981618 1
 178C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-display-values\node_modules\source-map\package.json132665583839864210 0
 142C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-ordered-values\dist\rules132665583585154992 1
@@ -7945,7 +7945,7 @@
 146C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@babel\helper-compilation-targets\lib132665583574822980 1
 141C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\purgecss\node_modules\source-map132665583815654489 1
 160C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules\node_modules\supports-color\license121436361000000000 0
-127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\wireframe-lg.48da39ca.jpg132665612727836709 0
+127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\wireframe-lg.48da39ca.jpg132666093794474351 0
 145C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\purgecss\node_modules\supports-color132665583815410731 1
 165C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-ordered-values\node_modules\postcss\CHANGELOG.md121436361000000000 0
 164C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\css-modules-loader-core\node_modules\chalk\node_modules132665583681219034 1
@@ -10103,7 +10103,7 @@
 126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\each.js121436361000000000 0
 173C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-positions\node_modules\source-map\CHANGELOG.md131369414900000000 0
 181C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-calc\node_modules\chalk\node_modules\supports-color\package.json132665583865525621 0
-120C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.fd58574d.css132665612728014469 0
+120C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.fd58574d.css132666093794550766 0
 165C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-positions\node_modules\source-map\dist132665583593109548 1
 164C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-positions\node_modules\source-map\lib132665583589844808 1
 168C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-normalize-positions\node_modules\source-map\LICENSE131369414900000000 0
@@ -10589,7 +10589,7 @@
 164C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules-values\node_modules\ansi-styles\license131408182550000000 0
 169C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules-values\node_modules\ansi-styles\package.json132665583843932826 0
 134C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules-scope\lib132665583591652238 1
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-4.222e6830.svg132665612727874284 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-4.222e6830.svg132666093794260926 0
 135C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@babel\parser\CHANGELOG.md121012626000000000 0
 167C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\css-declaration-sorter\node_modules\postcss\lib\postcss.js121436361000000000 0
 143C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\postcss-modules-scope\package.json132665583844659101 0
@@ -14073,7 +14073,7 @@
 126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\math.js121436361000000000 0
 126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\mean.js121436361000000000 0
 129C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\memoize.js121436361000000000 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-2.74505a7a.svg132665612727864653 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-2.74505a7a.svg132666093794258864 0
 160C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\scope-hoisting\node_modules\globals\license121436361000000000 0
 127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\merge.js121436361000000000 0
 130C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\lodash\fp\mergeAll.js121436361000000000 0
@@ -15413,7 +15413,7 @@
 160C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\htmlnano\lib\modules\collapseAttributeWhitespace.js121436361000000000 0
 161C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\core-js-compat\node_modules\semver\ranges\outside.js121436361000000000 0
 158C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\htmlnano\lib\modules\collapseBooleanAttributes.js121436361000000000 0
-124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.fd58574d.css.map132665612728218733 0
+124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.fd58574d.css.map132666093794604242 0
 151C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\htmlnano\lib\modules\collapseWhitespace.js121436361000000000 0
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\ajv\lib\dotjs\index.js121436361000000000 0
 139C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\htmlnano\lib\modules\custom.js121436361000000000 0
@@ -19518,7 +19518,7 @@
 154C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\promise-finally.js121436361000000000 0
 147C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\promises.js121436361000000000 0
 148C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\proximity.js121436361000000000 0
-123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.9626f0bb.js.map132665612728241986 0
+123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.9626f0bb.js.map132666093794604242 0
 155C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\publickeypinning.js121436361000000000 0
 147C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\push-api.js121436361000000000 0
 152C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\caniuse-lite\data\features\readonly-attr.js121436361000000000 0
@@ -20062,7 +20062,7 @@
 132C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-walk\dist\walk.js121436361000000000 0
 137C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-walk\dist\walk.mjs.map121436361000000000 0
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-globals\index.js121436361000000000 0
-108C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\assets132665612728208797 1
+108C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\assets132666093794545795 1
 130C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-globals\LICENSE121436361000000000 0
 135C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-globals\package.json132665583925181521 0
 132C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\acorn-globals\README.md121436361000000000 0
@@ -20780,7 +20780,7 @@
 152C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\markdown-ansi\test\markdown-ansi.js121436361000000000 0
 151C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js121436361000000000 0
 151C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js121436361000000000 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-7.efa0e026.svg132665612727852689 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-7.efa0e026.svg132666093794392530 0
 131C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\logger\LICENSE121436361000000000 0
 136C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\logger\package.json132665583869737280 0
 128C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\logger\test132665583607612783 1
@@ -20843,7 +20843,7 @@
 157C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\common-targets-ignore132665583588408614 1
 142C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\config132665583545540028 1
 160C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\config-extends-not-found132665583546114653 1
-126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-select.f8d42744.svg132665612727570539 0
+126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-select.f8d42744.svg132666093794267240 0
 143C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\context132665583589465626 1
 150C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\custom-targets132665583590840664 1
 158C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\@parcel\core\test\fixtures\custom-targets-distdir132665583590095465 1
@@ -21899,7 +21899,7 @@
 126C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\purgecss.ps1132665583936738743 0
 125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\regjsparser132665583935437502 0
 129C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\regjsparser.ps1132665583935437502 0
-119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo.272a18c5.svg132665612727864653 0
+119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo.272a18c5.svg132666093794502843 0
 124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\rimraf.cmd132665583936765972 0
 124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\rimraf.ps1132665583936765972 0
 118C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\sass132665583936133958 0
@@ -21920,19 +21920,19 @@
 122C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\uuid.ps1132665583936490873 0
 119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\which132665583936571028 0
 123C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\node_modules\.bin\which.cmd132665583936571028 0
-124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\favicon-1.7de86ebc.jpg132665612727847276 0
-124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\favicon-2.58cfd2f7.jpg132665612727816840 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-1.f09de9b2.svg132665612727570539 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-3.bcc4af98.svg132665612727575504 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-5.dd0f77d5.svg132665612727816840 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-6.259c8c0a.svg132665612727836709 0
-121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-8.ef29f1a8.svg132665612727841863 0
-125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-check.e36d4d8a.svg132665612727529644 0
-119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.9626f0bb.js132665612728029136 0
-119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.aaafe13f.js132665612728029136 0
-125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo-ver-1.6d6fa671.jpg132665612727874284 0
-125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo-ver-2.ab867eea.jpg132665612727846830 0
-127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\touch-icon-1.f2c015bb.jpg132665612727852689 0
-127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\touch-icon-2.3c99b21c.jpg132665612727864653 0
-127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\wireframe-sm.a947136d.jpg132665612727841863 0
-133C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\assets\assets-download-file.zip132665612728171847 0
+124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\favicon-1.7de86ebc.jpg132666093794258864 0
+124C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\favicon-2.58cfd2f7.jpg132666093794378096 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-1.f09de9b2.svg132666093794277257 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-3.bcc4af98.svg132666093794392530 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-5.dd0f77d5.svg132666093794512773 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-6.259c8c0a.svg132666093794392530 0
+121C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-8.ef29f1a8.svg132666093794392530 0
+125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\icon-check.e36d4d8a.svg132666093794260583 0
+119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.9626f0bb.js132666093794555740 0
+119C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\index.aaafe13f.js132666093794555740 0
+125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo-ver-1.6d6fa671.jpg132666093794512773 0
+125C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\logo-ver-2.ab867eea.jpg132666093794247130 0
+127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\touch-icon-1.f2c015bb.jpg132666093794253884 0
+127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\touch-icon-2.3c99b21c.jpg132666093794242092 0
+127C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\wireframe-sm.a947136d.jpg132666093794423770 0
+133C:\Users\plant\OneDrive\Documents\WDD 331\GroupProject331.github.io\style-guide-template-parcel\build\assets\assets-download-file.zip132666093794525716 0

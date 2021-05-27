@@ -1,9 +1,6 @@
 @import "partials/reset";
 @import "partials/prefix-mixins";
 @import "partials/layout"; // responsive grid and media queries
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Texturina&display=swap");
-
-// color palette - these colors will be the color swatches of the Colors section
 
 /* -------------------------------- 
 
@@ -45,7 +42,7 @@ xNavigation
 
 -------------------------------- */
 
-@import 'partials/navigation';
+@import "partials/navigation";
 
 /* -------------------------------- 
 

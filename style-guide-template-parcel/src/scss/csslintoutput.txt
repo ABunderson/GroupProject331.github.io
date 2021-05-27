@@ -1,0 +1,12 @@
+
+style-guide.scss
+  64:3  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 125:3  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 164:1  ×  Expected selector "input[type="text"]" to come before selector "input[type="text"]:focus"   no-descending-specificity         
+ 198:3  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 210:5  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 254:3  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 263:1  ×  Expected selector "select" to come before selector "select:focus"                           no-descending-specificity         
+ 268:3  ×  Unexpected unknown at-rule "@include"                                                       at-rule-no-unknown                
+ 271:1  ×  Unexpected invalid position @import rule                                                    no-invalid-position-at-import-rule
+

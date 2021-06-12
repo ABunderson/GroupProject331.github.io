@@ -1,0 +1,29 @@
+@mixin overflow {
+        content: "";
+    clear: both;
+    display: table;
+}
+
+
+.explanation, .benefits, .participation::after {
+    float: right;
+    width: 50%;
+    @include overflow;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.participation, .requirements, .explanation::after, .preamble {
+    float: left;
+    width: 50%;
+    @include overflow;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.main::after {
+@include overflow;
+}
+
+
+

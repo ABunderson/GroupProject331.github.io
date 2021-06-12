@@ -112,11 +112,15 @@ header {
   }
 }
 
-.explanation, .benefits, .participation::after {
+.explanation,
+.benefits,
+.participation::after {
   background-color: #946846;
 }
 @media only screen and (min-width: 43em) {
-  .explanation, .benefits, .participation::after {
+  .explanation,
+.benefits,
+.participation::after {
     float: right;
     width: 50%;
     content: "";
@@ -125,11 +129,25 @@ header {
   }
 }
 
-.participation, .explanation::after, .preamble, .requirements h3:nth-of-type(1), .requirements p:nth-of-type(1), .requirements p:nth-of-type(2), .requirements p:nth-of-type(3), .requirements p:nth-of-type(4) {
+.participation,
+.explanation::after,
+.preamble,
+.requirements h3:nth-of-type(1),
+.requirements p:nth-of-type(1),
+.requirements p:nth-of-type(2),
+.requirements p:nth-of-type(3),
+.requirements p:nth-of-type(4) {
   background-color: #946846;
 }
 @media only screen and (min-width: 43em) {
-  .participation, .explanation::after, .preamble, .requirements h3:nth-of-type(1), .requirements p:nth-of-type(1), .requirements p:nth-of-type(2), .requirements p:nth-of-type(3), .requirements p:nth-of-type(4) {
+  .participation,
+.explanation::after,
+.preamble,
+.requirements h3:nth-of-type(1),
+.requirements p:nth-of-type(1),
+.requirements p:nth-of-type(2),
+.requirements p:nth-of-type(3),
+.requirements p:nth-of-type(4) {
     float: left;
     width: 50%;
     content: "";
@@ -171,11 +189,11 @@ footer {
   position: relative;
   top: 25em;
   display: flex;
-  width: 51%;
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
   padding-bottom: 1em;
+  max-width: 30em;
 }
 
 h1,
@@ -189,7 +207,8 @@ a {
   font-family: "Shadows Into Light", sans-serif;
 }
 
-body, footer {
+body,
+footer {
   background-color: #efd6ac;
 }
 

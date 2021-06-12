@@ -29,6 +29,7 @@
     height: 13em;
     color: white;
     background-color: black;
+
     a {
       color: white;
       text-decoration: none;
@@ -42,10 +43,12 @@
   max-width: 100em;
   width: 100%;
   text-align: center;
+
   nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
+
     li a {
       color: black;
       padding: 1em;
@@ -55,6 +58,7 @@
   @include break(small-flag) {
     top: 75em;
   }
+  
   @include break(flag) {
     top: 59em;
   }

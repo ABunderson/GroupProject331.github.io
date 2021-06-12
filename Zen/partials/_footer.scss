@@ -1,20 +1,20 @@
 footer a {
-    height: 4em;
-    width: 4em;
-    border-radius: 6em;
-    color: white;
-    background-color: black;
-    text-align: center;
-    text-decoration: none;
-    line-height: 4em;
-  }
+  height: 4em;
+  width: 4em;
+  border-radius: 6em;
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  line-height: 4em;
+}
 
 footer {
-    position: relative;
-    top: 25em;
-    display: flex;
-    width: 51%;
-    @include center;
-    justify-content: space-between;
-    padding-bottom: 1em;
+  position: relative;
+  top: 25em;
+  display: flex;
+  @include center;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  max-width: 30em;
 }

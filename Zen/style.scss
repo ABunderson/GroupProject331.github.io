@@ -16,13 +16,17 @@ h2,
 h3 {
   font-family: "Texturina", serif;
 }
+
 p,
 a {
   font-family: "Shadows Into Light", sans-serif;
 }
-body, footer {
+
+body,
+footer {
   background-color: #efd6ac;
 }
+
 .zen-resources {
   @include center;
   max-width: 12em;
@@ -30,16 +34,11 @@ body, footer {
   background-color: gray;
 }
 
-
 .preamble {
   background-color: #946846;
 }
-
-
 
 body {
   max-width: 100em;
   @include center;
 }
-
-

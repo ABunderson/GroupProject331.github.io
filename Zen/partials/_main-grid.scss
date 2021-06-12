@@ -1,0 +1,51 @@
+@mixin overflow {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.explanation,
+.benefits,
+.participation::after {
+  background-color: #946846;
+
+  @include break(small-flag) {
+    float: right;
+    width: 50%;
+    @include overflow;
+  }
+}
+
+.participation,
+.explanation::after,
+.preamble,
+.requirements h3:nth-of-type(1),
+.requirements p:nth-of-type(1),
+.requirements p:nth-of-type(2),
+.requirements p:nth-of-type(3),
+.requirements p:nth-of-type(4) {
+  background-color: #946846;
+
+  @include break(small-flag) {
+    float: left;
+    width: 50%;
+    @include overflow;
+  }
+}
+
+.requirements {
+  background-color: #946846;
+}
+
+.main {
+    
+  @include break(small-flag) {
+    background-color: #946846;
+  }
+}
+
+.requirements p:last-of-type {
+  width: 100%;
+  text-align: center;
+  @include overflow;
+}

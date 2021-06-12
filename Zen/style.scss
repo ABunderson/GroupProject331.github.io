@@ -1,87 +1,44 @@
+@mixin center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @import "partials/layout";
 @import "partials/header";
 @import "partials/summary";
 @import "partials/sidebar";
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Texturina&display=swap');
+@import "partials/main-grid";
+@import "partials/footer";
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Texturina&display=swap");
 
-h1, h2, h3 {
-  font-family: 'Texturina', serif;
-  
+h1,
+h2,
+h3 {
+  font-family: "Texturina", serif;
 }
-p, a{
-  font-family: 'Shadows Into Light', sans-serif;
+
+p,
+a {
+  font-family: "Shadows Into Light", sans-serif;
 }
-body{
+
+body,
+footer {
   background-color: #efd6ac;
 }
+
 .zen-resources {
-  margin-left: auto;
-  margin-right: auto;
+  @include center;
   max-width: 12em;
-  padding: 1em;  
+  padding: 1em;
   background-color: gray;
-  
-
 }
-.requirements p:last-of-type{
-  position: relative;
- top: 23em;
- padding-top: 10px;
- display: flex;
- justify-content: center;
 
-}
-.preamble, .explanation, .participation, .benefits, .requirements {
+.preamble {
   background-color: #946846;
 }
 
-footer a {
-  display: inline-block;  
-  border: solid 1px black;
-  padding: 1em;
-  height: 10px;
-  color: white;
-  background-color: black;
-  
-  
-}
-
-
-div {
-  border: solid 1px black;
-}
- body {
-     max-width: 100em;
-     margin-left: auto;
-     margin-right: auto;
- }
- @media screen and (max-width: 768px) and (min-width: 414px) {
-  footer a {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  
-  }
-}
-/* Small size screen*/
-@media screen and (max-width: 414px) and (min-width: 300px) {
-  footer a {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    display: -webkit-box;
-    justify-content: center;
-    text-align: center;
-  
-  }
-  .design-selection{
-    display: grid;
-    grid-template-columns: repeat(1, minmax(5em, 1fr));
-  }
-  .requirements p:last-of-type{
-    position: relative;
-   top: 40em;
-   padding-top: 10px;
-   display: grid;
-  
-  }
-
+body {
+  max-width: 100em;
+  @include center;
 }

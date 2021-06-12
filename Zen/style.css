@@ -40,7 +40,7 @@ footer a {
   color: white;
   background-color: black;
   
- 
+  
 
 }
 
@@ -177,21 +177,21 @@ body {
 
 /*Medium Screen*/
 @media screen and (max-width: 768px) and (min-width: 414px) {
-  /* footer a {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  footer a {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   
-  }*/
+  }
 }
 /* Small size screen*/
 @media screen and (max-width: 414px) and (min-width: 300px) {
   footer a {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: -webkit-box;
     justify-content: center;
+    text-align: center;
+  
   }
   .design-selection{
     display: grid;

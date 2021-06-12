@@ -113,29 +113,39 @@ header {
 }
 
 .explanation, .benefits, .participation::after {
-  float: right;
-  width: 50%;
-  content: "";
-  clear: both;
-  display: table;
-  padding-right: 1em;
-  padding-left: 1em;
+  background-color: #946846;
+}
+@media only screen and (min-width: 43em) {
+  .explanation, .benefits, .participation::after {
+    float: right;
+    width: 50%;
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
-.participation, .requirements, .explanation::after, .preamble {
-  float: left;
-  width: 50%;
-  content: "";
-  clear: both;
-  display: table;
-  padding-right: 1em;
-  padding-left: 1em;
+.participation, .explanation::after, .preamble, .requirements h3:nth-of-type(1), .requirements p:nth-of-type(1), .requirements p:nth-of-type(2), .requirements p:nth-of-type(3), .requirements p:nth-of-type(4) {
+  background-color: #946846;
+}
+@media only screen and (min-width: 43em) {
+  .participation, .explanation::after, .preamble, .requirements h3:nth-of-type(1), .requirements p:nth-of-type(1), .requirements p:nth-of-type(2), .requirements p:nth-of-type(3), .requirements p:nth-of-type(4) {
+    float: left;
+    width: 50%;
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
-.main::after {
-  content: "";
-  clear: both;
-  display: table;
+.requirements {
+  background-color: #946846;
+}
+
+@media only screen and (min-width: 43em) {
+  .main {
+    background-color: #946846;
+  }
 }
 
 footer a {
@@ -150,10 +160,12 @@ footer a {
 }
 
 footer {
+  position: relative;
+  top: 25em;
   display: flex;
   width: 51%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   justify-content: space-between;
   padding-bottom: 1em;
 }
@@ -169,50 +181,42 @@ a {
   font-family: "Shadows Into Light", sans-serif;
 }
 
-body {
+body, footer {
   background-color: #efd6ac;
 }
 
 .zen-resources {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   max-width: 12em;
   padding: 1em;
   background-color: gray;
 }
 
 .requirements p:last-of-type {
+  background-color: red;
   position: relative;
-  top: 23em;
-  padding-top: 10px;
-  display: block;
-  text-align: center;
+  top: 35em;
+}
+@media only screen and (min-width: 43em) {
+  .requirements p:last-of-type {
+    top: 195em;
+  }
+}
+@media only screen and (min-width: 52em) {
+  .requirements p:last-of-type {
+    top: 126em;
+  }
 }
 
-.preamble,
-.main {
+.preamble {
   background-color: #946846;
 }
 
 body {
   max-width: 100em;
-  margin-left: auto;
   margin-right: auto;
-}
-
-/* Small size screen*/
-@media screen and (max-width: 414px) and (min-width: 300px) {
-  .design-selection {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(5em, 1fr));
-  }
-
-  .requirements p:last-of-type {
-    position: relative;
-    top: 40em;
-    padding-top: 10px;
-    display: grid;
-  }
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

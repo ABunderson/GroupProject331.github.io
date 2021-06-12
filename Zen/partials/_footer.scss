@@ -10,10 +10,11 @@ footer a {
   }
 
 footer {
+    position: relative;
+    top: 25em;
     display: flex;
     width: 51%;
-    margin-left: auto;
-    margin-right: auto;
+    @include center;
     justify-content: space-between;
     padding-bottom: 1em;
 }

@@ -33,3 +33,8 @@
 }
 
 
+.requirements p:last-of-type {
+    width: 100%;
+    text-align: center;
+    @include overflow;   
+  }

@@ -29,18 +29,7 @@ body, footer {
   padding: 1em;
   background-color: gray;
 }
-.requirements p:last-of-type {
-  background-color: red;
-  position: relative;
-  top: 35em;
-  @include break(small-flag){
-    top: 195em;
-  }
-  @include break(large){
-    top: 126em;
-  }
-  
-}
+
 
 .preamble {
   background-color: #946846;

@@ -148,6 +148,14 @@ header {
   }
 }
 
+.requirements p:last-of-type {
+  width: 100%;
+  text-align: center;
+  content: "";
+  clear: both;
+  display: table;
+}
+
 footer a {
   height: 4em;
   width: 4em;
@@ -191,22 +199,6 @@ body, footer {
   max-width: 12em;
   padding: 1em;
   background-color: gray;
-}
-
-.requirements p:last-of-type {
-  background-color: red;
-  position: relative;
-  top: 35em;
-}
-@media only screen and (min-width: 43em) {
-  .requirements p:last-of-type {
-    top: 195em;
-  }
-}
-@media only screen and (min-width: 52em) {
-  .requirements p:last-of-type {
-    top: 126em;
-  }
 }
 
 .preamble {

@@ -1,0 +1,16 @@
+@import "partials/layout";
+@import "partials/header";
+@import "partials/summary";
+@import "partials/sidebar";
+
+
+
+div {
+  border: solid 1px black;
+}
+ body {
+     max-width: 100em;
+     margin-left: auto;
+     margin-right: auto;
+ }
+

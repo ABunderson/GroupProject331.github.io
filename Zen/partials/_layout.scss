@@ -1,26 +1,28 @@
 // breakpoints
-    
-$large:         52em;   
-$flag:          60em;
-$small-flag:    43em;
-$small:         20em;
+
+$flag: 60em;
+$large: 52em;
+$small-flag: 43em;
+$small: 20em;
 
 // media queries
 
 @mixin break($canvas) {
-    @if $canvas == small {
-     @media only screen and (min-width: $small) { @content; } 
+  @if $canvas == small {
+    @media only screen and (min-width: $small) {
+      @content;
     }
-
-    @else if $canvas == small-flag {
-        @media only screen and (min-width: $small-flag) { @content; } 
-       }
-
-    @else if $canvas == flag {
-     @media only screen and (min-width: $flag) { @content; } 
+  } @else if $canvas == small-flag {
+    @media only screen and (min-width: $small-flag) {
+      @content;
     }
-    
-    @else if $canvas == large {
-        @media only screen and (min-width: $large) { @content; } 
-       }
+  } @else if $canvas == flag {
+    @media only screen and (min-width: $flag) {
+      @content;
+    }
+  } @else if $canvas == large {
+    @media only screen and (min-width: $large) {
+      @content;
+    }
   }
+}

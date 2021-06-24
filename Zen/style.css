@@ -5,39 +5,64 @@ header {
 @media only screen and (min-width: 52em) {
   header h1 {
     text-align: left;
-    padding-left: 15%;
+    padding-left: 10%;
     font-size: 3em;
     margin-top: 3%;
   }
   header h2 {
     text-align: left;
-    padding-left: 25%;
-    margin-bottom: 35.5em;
+    padding-left: 20%;
     font-size: 2em;
+    /*this keeps the main area below the flags after the compass rose jumps to the side*/
   }
 }
 @media only screen and (min-width: 52em) and (min-width: 60em) {
   header h2 {
-    margin-bottom: 27.5em;
+    margin-bottom: 30em;
   }
 }
 
-.summary {
+.summary::before {
+  content: url(svg/compass-rose.svg);
   margin-left: auto;
   margin-right: auto;
-  max-width: 12em;
+  z-index: -1;
+  width: 100%;
+  min-width: 23em;
+  max-width: 25em;
+  grid-area: 1/1/5/2;
+}
+
+.summary {
   padding: 1em;
-  margin-bottom: 76.5em;
+  margin-bottom: 76em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5em 8em auto 5em;
+  text-align: center;
+  /*This bit keeps the main grid area below the flags*/
+}
+.summary p:nth-of-type(1) {
+  grid-area: 2/1/3/2;
+  width: 11em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.summary p:nth-of-type(2) {
+  grid-area: 3/1/4/2;
+  width: 11em;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media only screen and (min-width: 43em) {
   .summary {
-    margin-bottom: 60em;
+    margin-bottom: 57em;
   }
 }
-@media only screen and (min-width: 52em) {
+@media only screen and (min-width: 60em) {
   .summary {
     position: absolute;
-    right: 2%;
+    right: 5%;
     top: 2%;
   }
 }
@@ -48,10 +73,20 @@ header {
 
 .design-selection {
   position: absolute;
-  top: 21.25em;
+  top: 33em;
   max-width: 100em;
   width: 100%;
   text-align: center;
+}
+@media only screen and (min-width: 52em) {
+  .design-selection {
+    top: 38em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .design-selection {
+    top: 28em;
+  }
 }
 
 .design-selection nav ul {
@@ -86,16 +121,18 @@ header {
 }
 
 .design-archives {
-  top: 91.5em;
+  top: 103em;
   position: absolute;
   max-width: 100em;
   width: 100%;
   text-align: center;
+  /*This keeps the archives menu below the flags*/
 }
 .design-archives nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding: 0;
 }
 .design-archives nav ul li a {
   color: black;
@@ -103,12 +140,17 @@ header {
 }
 @media only screen and (min-width: 43em) {
   .design-archives {
-    top: 75em;
+    top: 86em;
+  }
+}
+@media only screen and (min-width: 52em) {
+  .design-archives {
+    top: 90em;
   }
 }
 @media only screen and (min-width: 60em) {
   .design-archives {
-    top: 59em;
+    top: 65em;
   }
 }
 

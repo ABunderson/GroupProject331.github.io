@@ -2,6 +2,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+@mixin overflow {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 @import "partials/layout";
 @import "partials/header";

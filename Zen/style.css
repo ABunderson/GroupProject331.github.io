@@ -126,7 +126,23 @@ header {
   max-width: 100em;
   width: 100%;
   text-align: center;
+  content: "";
+  clear: both;
+  display: table;
   /*This keeps the archives menu below the flags*/
+}
+.design-archives::after {
+  content: url(svg/pirate-ship.svg);
+  background-color: blue;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  animation: 5s rocking-ship linear infinite;
+  animation-play-state: paused;
+}
+.design-archives:hover::after {
+  animation-play-state: running;
 }
 .design-archives nav ul {
   display: flex;
@@ -154,66 +170,75 @@ header {
   }
 }
 
+@keyframes rocking-ship {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .explanation,
+.preamble,
+.participation,
 .benefits,
-.participation::after {
+.requirements {
   background-color: #946846;
 }
 @media only screen and (min-width: 43em) {
   .explanation,
-.benefits,
-.participation::after {
-    float: right;
-    width: 50%;
-    content: "";
-    clear: both;
-    display: table;
-  }
-}
-
+.preamble,
 .participation,
-.explanation::after,
-.preamble,
-.requirements h3:nth-of-type(1),
-.requirements p:nth-of-type(1),
-.requirements p:nth-of-type(2),
-.requirements p:nth-of-type(3),
-.requirements p:nth-of-type(4) {
-  background-color: #946846;
-}
-@media only screen and (min-width: 43em) {
-  .participation,
-.explanation::after,
-.preamble,
-.requirements h3:nth-of-type(1),
-.requirements p:nth-of-type(1),
-.requirements p:nth-of-type(2),
-.requirements p:nth-of-type(3),
-.requirements p:nth-of-type(4) {
-    float: left;
-    width: 50%;
-    content: "";
-    clear: both;
-    display: table;
+.benefits,
+.requirements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
   }
 }
 
-.requirements {
-  background-color: #946846;
+/*explanation*/
+@media only screen and (min-width: 43em) {
+  .explanation::before,
+.benefits::before {
+    content: url(svg/island.svg);
+    display: block;
+    width: 100%;
+    grid-area: 1/1/4/2;
+  }
 }
 
 @media only screen and (min-width: 43em) {
-  .main {
-    background-color: #946846;
+  .preamble::after,
+.participation::after,
+.requirements::after {
+    content: url(svg/island.svg);
+    display: block;
+    width: 100%;
+    grid-area: 1/2/5/3;
   }
 }
 
 .requirements p:last-of-type {
   width: 100%;
   text-align: center;
-  content: "";
-  clear: both;
-  display: table;
+  grid-area: 6/1/7/3;
 }
 
 footer a {

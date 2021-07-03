@@ -1,51 +1,43 @@
-@mixin overflow {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .explanation,
-.benefits,
-.participation::after {
-  background-color: #946846;
-
-  @include break(small-flag) {
-    float: right;
-    width: 50%;
-    @include overflow;
-  }
-}
-
-.participation,
-.explanation::after,
 .preamble,
-.requirements h3:nth-of-type(1),
-.requirements p:nth-of-type(1),
-.requirements p:nth-of-type(2),
-.requirements p:nth-of-type(3),
-.requirements p:nth-of-type(4) {
-  background-color: #946846;
-
-  @include break(small-flag) {
-    float: left;
-    width: 50%;
-    @include overflow;
-  }
-}
-
+.participation,
+.benefits,
 .requirements {
   background-color: #946846;
+
+  @include break(small-flag) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+  }
 }
 
-.main {
-    
+/*explanation*/
+.explanation::before,
+.benefits::before {
+
   @include break(small-flag) {
-    background-color: #946846;
+    content: url(svg/island.svg);
+    display: block;
+    width: 100%;
+    grid-area: 1/1/4/2;
+  }
+}
+.preamble::after,
+.participation::after,
+.requirements::after {
+
+  @include break(small-flag) {
+    content: url(svg/island.svg);
+    display: block;
+    width: 100%;
+    grid-area: 1/2/5/3;
   }
 }
 
 .requirements p:last-of-type {
   width: 100%;
   text-align: center;
-  @include overflow;
+  grid-area: 6/1/7/3;
 }

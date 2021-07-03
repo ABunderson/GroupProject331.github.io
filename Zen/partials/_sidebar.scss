@@ -50,6 +50,20 @@
   max-width: 100em;
   width: 100%;
   text-align: center;
+  @include overflow;
+
+  &::after { 
+    content: url(svg/pirate-ship.svg);
+    background-color: blue;
+    display: block;
+    @include center;
+    width: 50%;
+    animation: 5s rocking-ship linear infinite;
+    animation-play-state: paused; 
+  }
+  &:hover::after {
+    animation-play-state: running;
+  }
 
   nav ul {
     display: flex;
@@ -74,5 +88,29 @@
   
   @include break(flag) {
     top: 65em;
+  }
+}
+
+@keyframes rocking-ship {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

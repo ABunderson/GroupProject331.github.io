@@ -7,6 +7,8 @@
   clear: both;
   display: table;
 }
+$page-width: 80em;
+$transition-time: 1s;
 
 @import "partials/layout";
 @import "partials/header";
@@ -32,18 +34,11 @@ footer {
   background-color: #efd6ac;
 }
 
-.zen-resources {
-  @include center;
-  max-width: 12em;
-  padding: 1em;
-  background-color: gray;
-}
-
 .preamble {
   background-color: #946846;
 }
 
 body {
-  max-width: 100em;
+  max-width: $page-width;
   @include center;
 }

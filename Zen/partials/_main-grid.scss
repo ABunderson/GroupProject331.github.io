@@ -4,35 +4,53 @@
 .benefits,
 .requirements {
   background-color: #946846;
+  padding: 0 1em;
 
   @include break(small-flag) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
     align-items: center;
+    padding: 1%;
+    box-sizing: border-box;
   }
 }
 
 /*explanation*/
+
 .explanation::before,
 .benefits::before {
-
   @include break(small-flag) {
     content: url(svg/island.svg);
     display: block;
     width: 100%;
     grid-area: 1/1/4/2;
+    padding: 1em;
+    box-sizing: border-box;
   }
 }
+
 .preamble::after,
 .participation::after,
 .requirements::after {
-
   @include break(small-flag) {
     content: url(svg/island.svg);
     display: block;
     width: 100%;
     grid-area: 1/2/5/3;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+}
+
+.requirements::after {
+  @include break(small-flag) {
+    content: url(svg/island-treasure.svg);
+    display: block;
+    width: 100%;
+    grid-area: 1/2/5/3;
+    padding: 1em;
+    box-sizing: border-box;
   }
 }
 

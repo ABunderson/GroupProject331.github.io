@@ -1,8 +1,10 @@
 // breakpoints
 
+$cannon: 70em;
 $flag: 60em;
 $large: 52em;
 $small-flag: 43em;
+$smoke: 35em;
 $small: 20em;
 
 // media queries
@@ -10,6 +12,10 @@ $small: 20em;
 @mixin break($canvas) {
   @if $canvas == small {
     @media only screen and (min-width: $small) {
+      @content;
+    }
+  } @else if $canvas == smoke {
+    @media only screen and (min-width: $smoke) {
       @content;
     }
   } @else if $canvas == small-flag {
@@ -22,6 +28,10 @@ $small: 20em;
     }
   } @else if $canvas == large {
     @media only screen and (min-width: $large) {
+      @content;
+    }
+  } @else if $canvas == cannon {
+    @media only screen and (min-width: $cannon) {
       @content;
     }
   }

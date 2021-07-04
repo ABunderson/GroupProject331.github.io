@@ -1,9 +1,17 @@
 .design-selection {
   position: absolute;
-  top: 21.25em;
-  max-width: 100em;
+  top: 33em;
+  max-width: $page-width;
   width: 100%;
   text-align: center;
+  transition: $transition-time;
+
+  @include break(large){
+    top: 38em;
+  }
+  @include break(flag){
+    top: 28em;
+  }
 }
 
 .design-selection nav ul {
@@ -14,6 +22,9 @@
   row-gap: 1em;
   justify-content: center;
   list-style-type: none;
+  transition: $transition-time;
+  position:relative;
+  justify-items: center;
 
   @include break(small-flag) {
     grid-template-columns: repeat(3, minmax(10em, 1fr));
@@ -24,30 +35,60 @@
   }
 
   li {
-    border: solid 1px black;
-    padding: 1em;
-    height: 13em;
     color: white;
-    background-color: black;
-
+    width: 55%;
+    padding-top: 6em;
+    text-align: center;
+    height: 8em;
+    
     a {
       color: white;
       text-decoration: none;
+      &::after {
+        content: "\a";
+        white-space: pre;
+      }
     }
   }
 }
 
+.design-selection li::after {
+  content: url(svg/flag.svg);
+  display: block;
+  width: 175%;
+  position: relative;
+  top: -6em;
+  left: -3em;
+  z-index: -5;
+}
+
 .design-archives {
-  top: 91.5em;
+  top: 103em;
   position: absolute;
-  max-width: 100em;
+  max-width: $page-width;
   width: 100%;
   text-align: center;
+  @include overflow;
+  transition: $transition-time;
+
+  &::after { 
+    content: url(svg/pirate-ship.svg);
+    display: block;
+    @include center;
+    width: 40%;
+    animation: 5s rocking-ship linear infinite;
+    animation-play-state: paused; 
+
+  }
+  &:hover::after {
+    animation-play-state: running;
+  }
 
   nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 0;
 
     li a {
       color: black;
@@ -55,11 +96,40 @@
     }
   }
 
+  /*This keeps the archives menu below the flags*/
   @include break(small-flag) {
-    top: 75em;
+    top: 86em;
+  }
+  
+  @include break(large) {
+    top: 90em;
   }
   
   @include break(flag) {
-    top: 59em;
+    top: 65em;
+  }
+}
+
+@keyframes rocking-ship {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

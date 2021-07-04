@@ -1,3 +1,68 @@
+.zen-resources {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  transition: $transition-time;
+
+  h3 {
+    margin-top: 2em;
+  }
+  h3,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    transition: $transition-time;
+
+    @include break(small-flag) {
+      margin-left: 25%;
+    }
+
+    @include break(flag) {
+      margin-left: 60%;
+    }
+  }
+  li a {
+    text-decoration: none;
+  }
+  &::after {
+    content: url(svg/small-smoke.svg);
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -6em;
+    z-index: -5;
+    max-width: 35em;
+    transition: $transition-time;
+
+    @include break(smoke) {
+      left: 50%;
+      margin-left: -17.5em;
+    }
+
+    @include break(small-flag) {
+      content: url(svg/smoke.svg);
+      width: 100%;
+      top: -4em;
+    }
+    @include break(flag) {
+      width: 50%;
+      right: 0;
+      margin-left: 0;
+    }
+  }
+
+  &::before {
+    @include break(flag) {
+      content: url(svg/cannon.svg);
+      display: block;
+      position: absolute;
+      width: 50%;
+      top: 12em;
+    }
+  }
+}
+
 footer a {
   height: 4em;
   width: 4em;
@@ -7,6 +72,14 @@ footer a {
   text-align: center;
   text-decoration: none;
   line-height: 4em;
+  transition: $transition-time;
+
+  @include break(cannon) {
+    height: 5em;
+    width: 5em;
+    line-height: 5em;
+    transition: $transition-time;
+  }
 }
 
 footer {
@@ -17,4 +90,18 @@ footer {
   justify-content: space-between;
   padding-bottom: 1em;
   max-width: 30em;
+  transition: $transition-time;
+
+  @include break(flag) {
+    top: 35em;
+    margin-right: 3em;
+    transition: $transition-time;
+  }
+
+  @include break(cannon) {
+    top: 40em;
+    margin-right: 3em;
+    max-width: 40em;
+    transition: $transition-time;
+  }
 }

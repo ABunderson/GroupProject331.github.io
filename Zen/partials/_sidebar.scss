@@ -6,10 +6,11 @@
   text-align: center;
   transition: $transition-time;
 
-  @include break(large){
+  @include break(large) {
     top: 38em;
   }
-  @include break(flag){
+
+  @include break(flag) {
     top: 28em;
   }
 }
@@ -23,7 +24,7 @@
   justify-content: center;
   list-style-type: none;
   transition: $transition-time;
-  position:relative;
+  position: relative;
   justify-items: center;
 
   @include break(small-flag) {
@@ -40,10 +41,11 @@
     padding-top: 6em;
     text-align: center;
     height: 8em;
-    
+
     a {
       color: white;
       text-decoration: none;
+
       &::after {
         content: "\a";
         white-space: pre;
@@ -68,18 +70,20 @@
   max-width: $page-width;
   width: 100%;
   text-align: center;
-  @include overflow;
   transition: $transition-time;
 
-  &::after { 
+  @include overflow;
+
+  &::after {
     content: url(svg/pirate-ship.svg);
     display: block;
-    @include center;
     width: 40%;
     animation: 5s rocking-ship linear infinite;
-    animation-play-state: paused; 
+    animation-play-state: paused;
 
+    @include center;
   }
+
   &:hover::after {
     animation-play-state: running;
   }
@@ -96,15 +100,15 @@
     }
   }
 
-  /*This keeps the archives menu below the flags*/
+  /* This keeps the archives menu below the flags */
   @include break(small-flag) {
     top: 86em;
   }
-  
+
   @include break(large) {
     top: 90em;
   }
-  
+
   @include break(flag) {
     top: 65em;
   }
@@ -114,21 +118,27 @@
   0% {
     transform: rotate(0deg);
   }
+
   25% {
     transform: rotate(5deg);
   }
+
   30% {
     transform: rotate(5deg);
   }
+
   50% {
     transform: rotate(0deg);
   }
+
   75% {
     transform: rotate(-5deg);
   }
+
   80% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0deg);
   }

@@ -3,7 +3,6 @@ header {
   transition: $transition-time;
 
   @include break(large) {
-
     h1 {
       text-align: left;
       padding-left: 10%;
@@ -11,13 +10,13 @@ header {
       margin-top: 3%;
       transition: $transition-time;
     }
-    
+
     h2 {
       text-align: left;
       padding-left: 20%;
       font-size: 2em;
-      /*this keeps the main area below the flags after the compass rose jumps to the side*/
 
+      /* This keeps the main area below the flags after the compass rose jumps to the side */
       @include break(flag) {
         margin-bottom: 47em;
       }

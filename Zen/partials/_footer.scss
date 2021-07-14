@@ -7,6 +7,7 @@
   h3 {
     margin-top: 2em;
   }
+
   h3,
   ul {
     margin: 0;
@@ -22,9 +23,11 @@
       margin-left: 60%;
     }
   }
+
   li a {
     text-decoration: none;
   }
+
   &::after {
     content: url(svg/small-smoke.svg);
     display: block;
@@ -45,6 +48,7 @@
       width: 100%;
       top: -4em;
     }
+
     @include break(flag) {
       width: 50%;
       right: 0;
@@ -86,11 +90,12 @@ footer {
   position: relative;
   top: 25em;
   display: flex;
-  @include center;
   justify-content: space-between;
   padding-bottom: 1em;
   max-width: 30em;
   transition: $transition-time;
+
+  @include center;
 
   @include break(flag) {
     top: 35em;

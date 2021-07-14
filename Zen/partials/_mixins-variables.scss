@@ -1,0 +1,13 @@
+@mixin center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin overflow {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+$page-width: 80em;
+$transition-time: 1s;

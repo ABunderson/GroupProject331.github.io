@@ -15,7 +15,7 @@ header {
     text-align: left;
     padding-left: 20%;
     font-size: 2em;
-    /*this keeps the main area below the flags after the compass rose jumps to the side*/
+    /* This keeps the main area below the flags after the compass rose jumps to the side */
   }
 }
 @media only screen and (min-width: 52em) and (min-width: 60em) {
@@ -26,14 +26,14 @@ header {
 
 .summary::before {
   content: url(svg/compass-rose.svg);
-  margin-left: auto;
-  margin-right: auto;
   z-index: -1;
   width: 100%;
   min-width: 23em;
   max-width: 25em;
   grid-area: 1/1/5/2;
   transition: 1s;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .summary {
@@ -43,9 +43,9 @@ header {
   grid-template-rows: 5em 8em auto 5em;
   text-align: center;
   transition: 1s;
-  /*this keeps the main area below the archives*/
+  /* this keeps the main area below the archives */
   margin-bottom: 85em;
-  /*This bit keeps the main grid area below the flags*/
+  /* This bit keeps the main grid area below the flags */
 }
 .summary p:nth-of-type(1) {
   grid-area: 2/1/3/2;
@@ -160,20 +160,20 @@ header {
   max-width: 80em;
   width: 100%;
   text-align: center;
+  transition: 1s;
   content: "";
   clear: both;
   display: table;
-  transition: 1s;
-  /*This keeps the archives menu below the flags*/
+  /* This keeps the archives menu below the flags */
 }
 .design-archives::after {
   content: url(svg/pirate-ship.svg);
   display: block;
-  margin-right: auto;
-  margin-left: auto;
   width: 40%;
   animation: 5s rocking-ship linear infinite;
   animation-play-state: paused;
+  margin-right: auto;
+  margin-left: auto;
 }
 .design-archives:hover::after {
   animation-play-state: running;
@@ -250,7 +250,7 @@ header {
   }
 }
 
-/*explanation*/
+/* explanation */
 @media only screen and (min-width: 43em) {
   .explanation::before,
 .benefits::before {
@@ -388,12 +388,12 @@ footer {
   position: relative;
   top: 25em;
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
   justify-content: space-between;
   padding-bottom: 1em;
   max-width: 30em;
   transition: 1s;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media only screen and (min-width: 60em) {
   footer {

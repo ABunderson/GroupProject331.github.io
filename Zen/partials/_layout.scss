@@ -14,23 +14,33 @@ $small: 20em;
     @media only screen and (min-width: $small) {
       @content;
     }
-  } @else if $canvas == smoke {
+  }
+
+  @else if $canvas == smoke {
     @media only screen and (min-width: $smoke) {
       @content;
     }
-  } @else if $canvas == small-flag {
+  }
+
+  @else if $canvas == small-flag {
     @media only screen and (min-width: $small-flag) {
       @content;
     }
-  } @else if $canvas == flag {
+  }
+
+  @else if $canvas == flag {
     @media only screen and (min-width: $flag) {
       @content;
     }
-  } @else if $canvas == large {
+  }
+
+  @else if $canvas == large {
     @media only screen and (min-width: $large) {
       @content;
     }
-  } @else if $canvas == cannon {
+  }
+
+  @else if $canvas == cannon {
     @media only screen and (min-width: $cannon) {
       @content;
     }

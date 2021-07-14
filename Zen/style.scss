@@ -1,15 +1,4 @@
-@mixin center {
-  margin-right: auto;
-  margin-left: auto;
-}
-@mixin overflow {
-  content: "";
-  clear: both;
-  display: table;
-}
-$page-width: 80em;
-$transition-time: 1s;
-
+@import "partials/mixins-variables";
 @import "partials/layout";
 @import "partials/header";
 @import "partials/summary";
@@ -40,5 +29,6 @@ footer {
 
 body {
   max-width: $page-width;
+
   @include center;
 }
